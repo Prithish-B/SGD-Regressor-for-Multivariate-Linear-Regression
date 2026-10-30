@@ -7,11 +7,15 @@ To write a program to predict the price of the house and number of occupants in 
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
-## Algorithm
-1. 
-2. 
-3. 
-4. 
+## Algorithm: Multiple Linear Regression
+
+1. Get the independent variables X and dependent variables Y  from the dataset.
+2. Convert the dataset into a Pandas DataFrame.
+3. Split the dataset into training data (80%) and testing data (20%) using `train_test_split()`.
+4. Create a Multiple Linear Regression model using `LinearRegression()` and train it using `fit()`.
+5. Predict the house price and rent using `predict()` and display the predicted and actual values.
+6. Give new house details (Size, Bedrooms, Age) to predict and display the house price in lakhs and rent per month.
+
 
 ## Program:
 Program to implement the multivariate linear regression model for predicting the price of the house and number of occupants in the house with SGD regressor.
